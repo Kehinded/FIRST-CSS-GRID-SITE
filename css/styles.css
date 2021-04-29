@@ -293,6 +293,7 @@ body {
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
+  z-index: 10;
   justify-content: center; }
   @media only screen and (max-width: 62.5em) {
     .sidebar {
@@ -306,6 +307,7 @@ body {
   background-color: #fff;
   width: 4.5rem;
   height: 0.2rem;
+  z-index: 20;
   margin-top: 3rem; }
   .nav-btn::before, .nav-btn::after {
     content: "";
