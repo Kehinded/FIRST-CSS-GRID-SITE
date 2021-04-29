@@ -273,7 +273,11 @@ body {
     @media only screen and (max-width: 50em) {
       .realtors__list {
         grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 1rem; } }
+        grid-column-gap: 1rem; } 
+    @media only screen and (max-width: 37.5em){
+            grid-template-columns: min-content max-content;
+            }
+}
   .realtors__img {
     display: block;
     width: 7rem;
