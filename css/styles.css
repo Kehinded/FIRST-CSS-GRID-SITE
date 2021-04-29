@@ -31,6 +31,7 @@ body {
     .container {
       grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
 
+
 .features {
   grid-column: center-start / center-end;
   margin: 15rem 0;
